@@ -13,29 +13,15 @@ import ErrorBoundary from './errorBoundary.jsx'
 import About from './components/custom/about.jsx'
 
 
-// const router = createBrowserRouter([
-//   {
-//     path: '/',
-//     element: <App />,
-//   },
-//   {
-//     path: '/create-event',
-//     element: <EventIndex />,
-//   },
-//   {
-//     path: '/view-event',
-//     element: <ViewEvent />,
-//   },
-// ])
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Provider store={AppStore}>
       <GoogleOAuthProvider clientId={import.meta.env.VITE_GOOGLEOAuth_CLIENT_ID}>
-      <BrowserRouter> {/* ✅ Use only BrowserRouter */}
+      <BrowserRouter> 
           <ErrorBoundary>
             <Header />
-            <Routes> {/* ✅ Use Routes instead of RouterProvider */}
+            <Routes> 
               <Route path="/" element={<App />} />
               <Route path="/about" element={<About />} />
               <Route path="/create-event" element={<EventIndex />} />

@@ -3,7 +3,6 @@ import { v4 as uuidv4 } from "uuid";
 import { Button } from "@/components/ui/button"
 
 export default function EventForm({ onEventAdded }) {
-  // const [dateTime, setDateTime] = useState("");
   const [formData, setFormData] = useState({
     heading: "",
     gener: "",

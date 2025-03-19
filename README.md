@@ -1,3 +1,13 @@
+MANASH BARUAH.
+
+Tools & Technology Used -
+1. React JS.
+2. Tailwind CSS
+3. Shadcn UI
+4. Redux Store
+5. Google Authentication
+6. Fully Responsive For all screen.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

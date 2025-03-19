@@ -15,10 +15,8 @@ export default function About() {
             Your all-in-one platform for seamless event planning, ticket management, and attendee engagement.
           </p>
   
-          {/* About Content */}
           <div className="mt-12 flex flex-col md:flex-row items-center gap-12">
             
-            {/* Left Side: Image */}
             <div className="md:w-1/2">
               <img 
                 src={Img1} 
@@ -27,18 +25,16 @@ export default function About() {
               />
             </div>
   
-            {/* Right Side: Text */}
             <div className="md:w-1/2">
               <h3 className="text-2xl font-semibold text-gray-800">
                 Simplify Event Planning & Maximize Engagement
               </h3>
               <p className="mt-4 text-gray-600 text-lg">
-                EventO is designed to help organizers create, manage, and promote events effortlessly. 
+                eVento is designed to help organizers create, manage, and promote events effortlessly. 
                 Whether you're planning a corporate conference, a music festival, or a private gathering, 
-                we provide the tools you need for a **stress-free** and **successful** event.
+                we provide the tools you need for a stress-free and successful event.
               </p>
   
-              {/* Features List */}
               <div className="mt-6 space-y-4">
                 <div className="flex items-start gap-4">
                   <span className="text-blue-500 text-2xl">✔</span>
@@ -60,7 +56,6 @@ export default function About() {
             </div>
           </div>
   
-          {/* Call to Action */}
           <div className="mt-12 text-center">
             <h3 className="text-xl font-semibold text-gray-800">
               Ready to make your next event a success?
